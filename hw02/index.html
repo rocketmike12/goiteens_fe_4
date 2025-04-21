@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* task 1 */
+        .slider {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .slider__input {
+            width: 100%;
+        }
+
+        .slider__image {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+        }
+
+        /* task 2 */
+        #box {
+            margin-top: 200px;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            transition: 200ms;
+        }
+    </style>
+</head>
+<body>
+    <!-- task 1 -->
+    <div class="slider">
+        <input type="range" min="1" max="100" value="50" class="slider__input">
+        <img src="https://placehold.co/300x300/bb00bb/fffff/" class="slider__image">
+    </div>
+
+    <!-- task 2 -->
+    <div id="box"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./task01.js" type="module"></script>
+    <script src="./task02.js" type="module"></script>
+</body>
+</html>
