@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			href="node_modules/@pnotify/core/dist/PNotify.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="node_modules/@pnotify/mobile/dist/PNotifyMobile.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="node_modules/@pnotify/core/dist/Material.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<script type="module">
+			import * as PNotify from "./node_modules/@pnotify/core/dist/PNotify.js";
+			import * as PNotifyMobile from "./node_modules/@pnotify/mobile/dist/PNotifyMobile.js";
+		</script>
+		<style>
+			canvas {
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<p id="status">Score: 0</p>
+		<p id="key"></p>
+		<button>New game</button>
+
+		<!--###-->
+
+		<canvas id="sales-chart"></canvas>
+
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script src="./index.js"></script>
+	</body>
+</html>
