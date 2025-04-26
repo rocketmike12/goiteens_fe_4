@@ -667,15 +667,15 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"a0t4e":[function(require,module,exports,__globalThis) {
-var _word = require("./word");
-var _color = require("./color");
+var _wordJs = require("./word.js");
+var _colorJs = require("./color.js");
 const genBtn = document.querySelector("button");
 const text = document.querySelector(".text");
 genBtn.addEventListener("click", ()=>{
-    text.innerHTML = text.innerHTML + `<p style="color: ${(0, _color.generateColor)()}">${(0, _word.generateWord)()}</p>`;
+    text.innerHTML = text.innerHTML + `<p style="color: ${(0, _colorJs.generateColor)()}">${(0, _wordJs.generateWord)()}</p>`;
 });
 
-},{"./word":"4n1Jw","./color":"amq4i"}],"4n1Jw":[function(require,module,exports,__globalThis) {
+},{"./word.js":"4n1Jw","./color.js":"amq4i"}],"4n1Jw":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "generateWord", ()=>generateWord);

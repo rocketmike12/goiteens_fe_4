@@ -1,5 +1,5 @@
-import { generateWord } from "./word";
-import { generateColor } from "./color"
+import { generateWord } from "./word.js";
+import { generateColor } from "./color.js"
 
 const genBtn = document.querySelector("button");
 const text = document.querySelector(".text");
