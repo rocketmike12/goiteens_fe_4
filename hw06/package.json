@@ -11,7 +11,7 @@
   "type": "commonjs",
   "scripts": {
 	"start": "parcel src/index.html",
-    "build": "parcel build src/index.html --dist-dir dist"
+    "build": "parcel build src/index.html --dist-dir dist --public-url https://rocketmike12.github.io/goiteens_fe_4/hw06/dist/"
   },
   "dependencies": {
     "@lmdb/lmdb-linux-x64": "^3.2.6"
