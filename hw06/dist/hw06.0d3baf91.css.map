@@ -1,0 +1,1 @@
+{"mappings":"ACAA,wCAKA","sources":["hw06.0d3baf91.css","src/style.css"],"sourcesContent":["p {\n  margin-right: 6px;\n  display: inline-block;\n}\n\n.text {\n  display: block;\n}\n/*# sourceMappingURL=hw06.0d3baf91.css.map */\n","p {\n\tdisplay: inline-block;\n\tmargin-right: 6px;\n}\n\n.text {\n\tdisplay: block;\n}\n"],"names":[],"version":3,"file":"hw06.0d3baf91.css.map"}

@@ -1,0 +1,22 @@
+{
+  "name": "hw06",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "github.com/rocketmike12/goiteens_fe_4"
+  },
+  "license": "ISC",
+  "author": "rocketmike12",
+  "type": "commonjs",
+  "scripts": {
+	"start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir dist"
+  },
+  "dependencies": {
+    "@lmdb/lmdb-linux-x64": "^3.2.6"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}

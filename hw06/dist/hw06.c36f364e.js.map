@@ -1,0 +1,1 @@
+{"mappings":"AAAA,MAAM,SAAS,SAAS,aAAa,CAAC;AAItC,OAAO,gBAAgB,CAAC,SAAS;IAAO,MAAM;AAAc","sources":["index.js"],"sourcesContent":["const genBtn = document.querySelector('button')\n\n\n\ngenBtn.addEventListener('click', () => {alert(\"Hello World\")})\n\n"],"names":[],"version":3,"file":"hw06.c36f364e.js.map","sourceRoot":"/__parcel_source_root/"}

@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;;AAKA","sources":["style.css"],"sourcesContent":["p {\n\tdisplay: inline-block;\n\tmargin-right: 6px;\n}\n\n.text {\n\tdisplay: block;\n}\n"],"names":[],"version":3,"file":"hw06.3a01df49.css.map","sourceRoot":"/__parcel_source_root/"}
