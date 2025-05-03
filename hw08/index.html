@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+		/>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/toastify-js"
+		></script>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="container" id="bookmarkApp">
+			<h1>Закладки</h1>
+			<input type="text" id="bookmarkInput" placeholder="URL" />
+			<button id="addBookmarkBtn">Додати</button>
+			<ul id="bookmarkList"></ul>
+		</div>
+
+		<div class="container" id="formApp">
+			<h1>Форма</h1>
+			<input type="text" id="username" placeholder="Логін" />
+			<input type="password" id="password" placeholder="Пароль" />
+			<button id="saveBtn">Зберегти</button>
+		</div>
+
+		<script src="./index.js" type="module"></script>
+		<script src="./form.js"></script>
+	</body>
+</html>
