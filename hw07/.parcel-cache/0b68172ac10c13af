@@ -1,0 +1,5 @@
+<ul>
+{{ #each products }}
+	<p>{{ product.name }}
+{{ /each }}
+</ul>
