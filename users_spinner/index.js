@@ -5,7 +5,7 @@ const backdrop = document.querySelector(".backdrop");
 
 const renderQuantity = 5;
 let userIndex = 0;
-let users = [];
+let users = JSON.parse(localStorage.getItem("users")) || false;
 
 const renderUsers = function () {
 	backdrop.classList.remove("is-hidden");
@@ -39,12 +39,15 @@ const renderUsers = function () {
 		}
 	}, 1000);
 };
-
-fetch("https://67fa491e8ee14a5426274531.mockapi.io/data/users")
-	.then((res) => res.json())
-	.then((res) => {
-		users = res;
-	});
+	
+if (!users) {
+	fetch("https://67fa491e8ee14a5426274531.mockapi.io/data/users")
+		.then((res) => res.json())
+		.then((res) => {
+			users = res;
+			localStorage.setItem("users", JSON.stringify(users));
+		});
+}
 
 if (!window.navigator.onLine) {
 	document.querySelector(".error").className = "error no-conection";
