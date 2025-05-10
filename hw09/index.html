@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+		/>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/toastify-js"
+		></script>
+		<style>
+			ul {
+				list-style: none;
+			}
+
+			li {
+				margin-bottom: 10px;
+				border: 1px solid #000000;
+				width: min-content;
+				padding: 10px;
+			}
+
+			input {
+				display: block;
+				margin-bottom: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="todo-container">
+			<h2>Contact list</h2>
+			<input id="firstName" type="text" placeholder="first name" />
+			<input id="lastName" type="text" placeholder="last name" />
+			<input id="phone" type="text" placeholder="phone" />
+			<input id="email" type="email" placeholder="email" />
+			<button id="addTaskBtn" type="button">Add task</button>
+			<ul></ul>
+		</div>
+		<script src="./index.js" type="module"></script>
+	</body>
+</html>
