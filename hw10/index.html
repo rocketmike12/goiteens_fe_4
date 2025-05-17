@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title></title>
+		<style>
+			#first,
+			#second,
+			#third {
+				width: 200px;
+				height: 200px;
+				transition: 200ms;
+				font-size: 24px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			#first {
+				background-color: blueviolet;
+			}
+
+			#second {
+				background-color: chartreuse;
+			}
+
+			#third {
+				background-color: orange;
+			}
+
+			h2:not(:first-child) {
+				margin-top: 200px;
+			}
+
+			#gameBtn {
+				width: 100px;
+				height: 75px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 1 -->
+
+		<h2>1. message interval</h2>
+		<div id="msgBox"></div>
+
+		<!-- 2 -->
+
+		<h2>2. random style</h2>
+		<div id="first">first</div>
+		<div id="second">second</div>
+		<div id="third">third</div>
+
+		<!-- 3 -->
+
+		<h2 id="clickerTitle">3. clicker game</h2>
+		<button id="gameBtn">click to start</button>
+
+		<!-- 4 -->
+
+		<h2>4. timer</h2>
+		<input type="text" id="timerInput" placeholder="seconds" />
+		<button id="timerBtn">start</button>
+
+		<p id="timerText"></p>
+		<script src="./index.js"></script>
+	</body>
+</html>
