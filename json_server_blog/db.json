@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Hello World",
+      "text": "something happened",
+      "author": "david"
+    },
+    {
+      "id": "3",
+      "title": "test message",
+      "text": "something happened 1111",
+      "author": "nika"
+    },
+    {
+      "id": "4",
+      "title": "fourth title test",
+      "text": "something happened hello world",
+      "author": "misha",
+      "views": "misha"
+    },
+    {
+      "id": "6",
+      "title": "sixth title",
+      "text": "something happened",
+      "author": "oleksiy"
+    }
+  ]
+}

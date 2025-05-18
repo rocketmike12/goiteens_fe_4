@@ -1,0 +1,27 @@
+ul {
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  display: flex;
+}
+
+li {
+  border: 2px solid #000;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 200px;
+  height: 300px;
+  padding: 40px;
+  display: flex;
+}
+
+form {
+  border: 2px solid #000;
+  width: fit-content;
+  padding: 10px;
+}
+
+input {
+  margin-bottom: 20px;
+  display: block;
+}
