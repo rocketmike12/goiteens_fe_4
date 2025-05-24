@@ -1,0 +1,15 @@
+.timer {
+	padding: 20px;
+	width: max-content;
+	
+	background-color: #884e87;
+	color: #f8c551;
+	
+	font-family: Roboto Mono;
+	font-size: 24px;
+	font-weight: 600;
+	
+	border-radius: 5px;
+	border: 2px solid #f8c551;
+}
+
